@@ -27,10 +27,16 @@ img {
 }
 
 .bottom-container {
+  display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 
   font-size: larger;
   color: #ffffff;
+  padding: 0 250px;
+}
+
+span {
+  color: #06ff00;
 }
