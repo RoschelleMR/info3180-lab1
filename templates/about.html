@@ -2,13 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/app.css') }}"
+    />
     <title>My Website - About</title>
   </head>
   <body>
-    <h1>Roschelle Matthews-Rhoden</h1>
-    <p>
-      I am a computer science student at UWI and I aspire to become a Web
-      Developer
-    </p>
+    <div class="top-container">
+      <h1>Roschelle Matthews-Rhoden</h1>
+      <img src="{{url_for('static',filename="images/meditate.svg")}}"/>
+    </div>
+    <div class="bottom-container">
+      <p>
+        I am a computer science student at UWI and I aspire to become a Web
+        Developer
+      </p>
+    </div>
   </body>
 </html>
